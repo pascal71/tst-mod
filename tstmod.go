@@ -1,4 +1,4 @@
-package recursivefunc
+package tstmod
 
 // Calculate Fac of n recursively
 

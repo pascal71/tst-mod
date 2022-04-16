@@ -3,12 +3,11 @@
  * File: recursivefunc_test.go
  */
 
-package recursivefunc_test
+package tstmod
 
 import (
+	"github.com/pascal71/tstmod"
 	"testing"
-
-	"github.com/pascal71/recursivefunc"
 )
 
 func TestFac(t *testing.T) {
