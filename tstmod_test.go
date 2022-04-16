@@ -3,11 +3,12 @@
  * File: recursivefunc_test.go
  */
 
-package tstmod
+package tstmod_test
 
 import (
-	"github.com/pascal71/tstmod"
 	"testing"
+
+	"github.com/pascal71/tstmod"
 )
 
 func TestFac(t *testing.T) {
@@ -17,7 +18,7 @@ func TestFac(t *testing.T) {
 	a = 4
 	expected = 4 * 3 * 2 * 1
 
-	if got := recursivefunc.Fac(a); got != expected {
+	if got := tstmod.Fac(a); got != expected {
 		t.Errorf("Fac(%d) = %d, didn't return %d", a, got, expected)
 	}
 }
